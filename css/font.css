@@ -1,0 +1,207 @@
+/*
+フォントの設定用CSS
+*/
+
+
+/*==========================================
+
+    bodyのフォント設定
+
+==========================================*/
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2") format('woff2'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff") format('woff'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2") format('woff2'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff") format('woff'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2") format('woff2'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff") format('woff'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2") format('woff2'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff") format('woff'),
+       url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf") format('opentype');
+}
+
+/*@font-face {
+   font-family: 'Noto Sans Japanese';
+   font-style: 500;
+   font-weight: 500;
+    src: url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2") format('woff2'),
+        url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff") format('woff'),
+        url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-MDemiLight.otf") format('opentype');
+ }*/
+
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 16px;
+    font-size: 16rem;
+    color: #666;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.avenir{
+    font-family: Avenir Next, 'Noto Sans Japanese', sans-serif;
+}
+
+/* 指定値が必要なため 200 で上書き */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 200;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 15px;
+        font-size: 15rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 13px;
+        font-size: 13rem;
+    }
+}
+
+/*==========================================
+
+    absolute font size
+    固定フォントサイズ
+
+==========================================*/
+
+.afs10{font-size:10px;font-size:10rem;}
+.afs11{font-size:11px;font-size:11rem;}
+.afs12{font-size:12px;font-size:12rem;}
+.afs13{font-size:13px;font-size:13rem;}
+.afs14{font-size:14px;font-size:14rem;}
+.afs15{font-size:15px;font-size:15rem;}
+.afs16{font-size:16px;font-size:16rem;}
+.afs17{font-size:17px;font-size:17rem;}
+.afs18{font-size:18px;font-size:18rem;}
+.afs19{font-size:19px;font-size:19rem;}
+.afs20{font-size:20px;font-size:20rem;}
+.afs21{font-size:21px;font-size:21rem;}
+.afs22{font-size:22px;font-size:22rem;}
+.afs23{font-size:23px;font-size:23rem;}
+.afs24{font-size:24px;font-size:24rem;}
+.afs25{font-size:25px;font-size:25rem;}
+.afs26{font-size:26px;font-size:26rem;}
+.afs27{font-size:27px;font-size:27rem;}
+.afs28{font-size:28px;font-size:28rem;}
+.afs29{font-size:29px;font-size:29rem;}
+.afs30{font-size:30px;font-size:30rem;}
+.afs31{font-size:31px;font-size:31rem;}
+.afs32{font-size:32px;font-size:32rem;}
+.afs33{font-size:33px;font-size:33rem;}
+.afs34{font-size:34px;font-size:34rem;}
+.afs35{font-size:35px;font-size:35rem;}
+.afs36{font-size:36px;font-size:36rem;}
+.afs37{font-size:37px;font-size:37rem;}
+.afs38{font-size:38px;font-size:38rem;}
+.afs39{font-size:39px;font-size:39rem;}
+.afs40{font-size:40px;font-size:40rem;}
+
+/*==========================================
+
+    flex font size
+    PCでの表示を基準にSPでは0.8倍のフォントサイズになる
+
+==========================================*/
+
+.ffs10{font-size:10px;font-size:10rem;} @media screen and (max-width: 600px) {.ffs10{font-size:8px;font-size:8rem;}}
+.ffs11{font-size:11px;font-size:11rem;} @media screen and (max-width: 600px) {.ffs11{font-size:9px;font-size:9rem;}}
+.ffs12{font-size:12px;font-size:12rem;} @media screen and (max-width: 600px) {.ffs12{font-size:10px;font-size:10rem;}}
+.ffs13{font-size:13px;font-size:13rem;} @media screen and (max-width: 600px) {.ffs13{font-size:10px;font-size:10rem;}}
+.ffs14{font-size:14px;font-size:14rem;} @media screen and (max-width: 600px) {.ffs14{font-size:11px;font-size:11rem;}}
+.ffs15{font-size:15px;font-size:15rem;} @media screen and (max-width: 600px) {.ffs15{font-size:12px;font-size:12rem;}}
+.ffs16{font-size:16px;font-size:16rem;} @media screen and (max-width: 600px) {.ffs16{font-size:13px;font-size:13rem;}}
+.ffs17{font-size:17px;font-size:17rem;} @media screen and (max-width: 600px) {.ffs17{font-size:14px;font-size:14rem;}}
+.ffs18{font-size:18px;font-size:18rem;} @media screen and (max-width: 600px) {.ffs18{font-size:14px;font-size:14rem;}}
+.ffs19{font-size:19px;font-size:19rem;} @media screen and (max-width: 600px) {.ffs19{font-size:15px;font-size:15rem;}}
+.ffs20{font-size:20px;font-size:20rem;} @media screen and (max-width: 600px) {.ffs20{font-size:16px;font-size:16rem;}}
+.ffs21{font-size:21px;font-size:21rem;} @media screen and (max-width: 600px) {.ffs21{font-size:17px;font-size:17rem;}}
+.ffs22{font-size:22px;font-size:22rem;} @media screen and (max-width: 600px) {.ffs22{font-size:18px;font-size:18rem;}}
+.ffs23{font-size:23px;font-size:23rem;} @media screen and (max-width: 600px) {.ffs23{font-size:18px;font-size:18rem;}}
+.ffs24{font-size:24px;font-size:24rem;} @media screen and (max-width: 600px) {.ffs24{font-size:19px;font-size:19rem;}}
+.ffs25{font-size:25px;font-size:25rem;} @media screen and (max-width: 600px) {.ffs25{font-size:20px;font-size:20rem;}}
+.ffs26{font-size:26px;font-size:26rem;} @media screen and (max-width: 600px) {.ffs26{font-size:21px;font-size:21rem;}}
+.ffs27{font-size:27px;font-size:27rem;} @media screen and (max-width: 600px) {.ffs27{font-size:22px;font-size:22rem;}}
+.ffs28{font-size:28px;font-size:28rem;} @media screen and (max-width: 600px) {.ffs28{font-size:22px;font-size:22rem;}}
+.ffs29{font-size:29px;font-size:29rem;} @media screen and (max-width: 600px) {.ffs29{font-size:23px;font-size:23rem;}}
+.ffs30{font-size:30px;font-size:30rem;} @media screen and (max-width: 600px) {.ffs30{font-size:24px;font-size:24rem;}}
+.ffs31{font-size:31px;font-size:31rem;} @media screen and (max-width: 600px) {.ffs31{font-size:25px;font-size:25rem;}}
+.ffs32{font-size:32px;font-size:32rem;} @media screen and (max-width: 600px) {.ffs32{font-size:26px;font-size:26rem;}}
+.ffs33{font-size:33px;font-size:33rem;} @media screen and (max-width: 600px) {.ffs33{font-size:26px;font-size:26rem;}}
+.ffs34{font-size:34px;font-size:34rem;} @media screen and (max-width: 600px) {.ffs34{font-size:27px;font-size:27rem;}}
+.ffs35{font-size:35px;font-size:35rem;} @media screen and (max-width: 600px) {.ffs35{font-size:28px;font-size:28rem;}}
+.ffs36{font-size:36px;font-size:36rem;} @media screen and (max-width: 600px) {.ffs36{font-size:29px;font-size:29rem;}}
+.ffs37{font-size:37px;font-size:37rem;} @media screen and (max-width: 600px) {.ffs37{font-size:30px;font-size:30rem;}}
+.ffs38{font-size:38px;font-size:38rem;} @media screen and (max-width: 600px) {.ffs38{font-size:30px;font-size:30rem;}}
+.ffs39{font-size:39px;font-size:39rem;} @media screen and (max-width: 600px) {.ffs39{font-size:31px;font-size:31rem;}}
+.ffs40{font-size:40px;font-size:40rem;} @media screen and (max-width: 600px) {.ffs40{font-size:32px;font-size:32rem;}}
+
+
+/*==========================================
+
+    variable font size
+    PCでの表示を基準に1024pxで数値のフォントサイズになるように変動、SPでは0.8倍のフォントサイズになる
+
+==========================================*/
+
+.vfs10{font-size:10px;font-size:10rem;font-size:0.97656vw;} @media screen and (max-width: 600px) {.vfs10{font-size:8px;font-size:8rem;}} @media screen and (min-width: 1024px) {.vfs10{font-size:10px;font-size:10rem;}}
+.vfs11{font-size:11px;font-size:11rem;font-size:1.07422vw;} @media screen and (max-width: 600px) {.vfs11{font-size:9px;font-size:9rem;}} @media screen and (min-width: 1024px) {.vfs11{font-size:11px;font-size:11rem;}}
+.vfs12{font-size:12px;font-size:12rem;font-size:1.17188vw;} @media screen and (max-width: 600px) {.vfs12{font-size:10px;font-size:10rem;}} @media screen and (min-width: 1024px) {.vfs12{font-size:12px;font-size:12rem;}}
+.vfs13{font-size:13px;font-size:13rem;font-size:1.26953vw;} @media screen and (max-width: 600px) {.vfs13{font-size:10px;font-size:10rem;}} @media screen and (min-width: 1024px) {.vfs13{font-size:13px;font-size:13rem;}}
+.vfs14{font-size:14px;font-size:14rem;font-size:1.36719vw;} @media screen and (max-width: 600px) {.vfs14{font-size:11px;font-size:11rem;}} @media screen and (min-width: 1024px) {.vfs14{font-size:14px;font-size:14rem;}}
+.vfs15{font-size:15px;font-size:15rem;font-size:1.46484vw;} @media screen and (max-width: 600px) {.vfs15{font-size:12px;font-size:12rem;}} @media screen and (min-width: 1024px) {.vfs15{font-size:15px;font-size:15rem;}}
+.vfs16{font-size:16px;font-size:16rem;font-size:1.56250vw;} @media screen and (max-width: 600px) {.vfs16{font-size:13px;font-size:13rem;}} @media screen and (min-width: 1024px) {.vfs16{font-size:16px;font-size:16rem;}}
+.vfs17{font-size:17px;font-size:17rem;font-size:1.66016vw;} @media screen and (max-width: 600px) {.vfs17{font-size:14px;font-size:14rem;}} @media screen and (min-width: 1024px) {.vfs17{font-size:17px;font-size:17rem;}}
+.vfs18{font-size:18px;font-size:18rem;font-size:1.75781vw;} @media screen and (max-width: 600px) {.vfs18{font-size:14px;font-size:14rem;}} @media screen and (min-width: 1024px) {.vfs18{font-size:18px;font-size:18rem;}}
+.vfs19{font-size:19px;font-size:19rem;font-size:1.85547vw;} @media screen and (max-width: 600px) {.vfs19{font-size:15px;font-size:15rem;}} @media screen and (min-width: 1024px) {.vfs19{font-size:19px;font-size:19rem;}}
+.vfs20{font-size:20px;font-size:20rem;font-size:1.95313vw;} @media screen and (max-width: 600px) {.vfs20{font-size:16px;font-size:16rem;}} @media screen and (min-width: 1024px) {.vfs20{font-size:20px;font-size:20rem;}}
+.vfs21{font-size:21px;font-size:21rem;font-size:2.05078vw;} @media screen and (max-width: 600px) {.vfs21{font-size:17px;font-size:17rem;}} @media screen and (min-width: 1024px) {.vfs21{font-size:21px;font-size:21rem;}}
+.vfs22{font-size:22px;font-size:22rem;font-size:2.14844vw;} @media screen and (max-width: 600px) {.vfs22{font-size:18px;font-size:18rem;}} @media screen and (min-width: 1024px) {.vfs22{font-size:22px;font-size:22rem;}}
+.vfs23{font-size:23px;font-size:23rem;font-size:2.24609vw;} @media screen and (max-width: 600px) {.vfs23{font-size:18px;font-size:18rem;}} @media screen and (min-width: 1024px) {.vfs23{font-size:23px;font-size:23rem;}}
+.vfs24{font-size:24px;font-size:24rem;font-size:2.34375vw;} @media screen and (max-width: 600px) {.vfs24{font-size:19px;font-size:19rem;}} @media screen and (min-width: 1024px) {.vfs24{font-size:24px;font-size:24rem;}}
+.vfs25{font-size:25px;font-size:25rem;font-size:2.44141vw;} @media screen and (max-width: 600px) {.vfs25{font-size:20px;font-size:20rem;}} @media screen and (min-width: 1024px) {.vfs25{font-size:25px;font-size:25rem;}}
+.vfs26{font-size:26px;font-size:26rem;font-size:2.53906vw;} @media screen and (max-width: 600px) {.vfs26{font-size:21px;font-size:21rem;}} @media screen and (min-width: 1024px) {.vfs26{font-size:26px;font-size:26rem;}}
+.vfs27{font-size:27px;font-size:27rem;font-size:2.63672vw;} @media screen and (max-width: 600px) {.vfs27{font-size:22px;font-size:22rem;}} @media screen and (min-width: 1024px) {.vfs27{font-size:27px;font-size:27rem;}}
+.vfs28{font-size:28px;font-size:28rem;font-size:2.73438vw;} @media screen and (max-width: 600px) {.vfs28{font-size:22px;font-size:22rem;}} @media screen and (min-width: 1024px) {.vfs28{font-size:28px;font-size:28rem;}}
+.vfs29{font-size:29px;font-size:29rem;font-size:2.83203vw;} @media screen and (max-width: 600px) {.vfs29{font-size:23px;font-size:23rem;}} @media screen and (min-width: 1024px) {.vfs29{font-size:29px;font-size:29rem;}}
+.vfs30{font-size:30px;font-size:30rem;font-size:2.92969vw;} @media screen and (max-width: 600px) {.vfs30{font-size:24px;font-size:24rem;}} @media screen and (min-width: 1024px) {.vfs30{font-size:30px;font-size:30rem;}}
+.vfs31{font-size:31px;font-size:31rem;font-size:3.02734vw;} @media screen and (max-width: 600px) {.vfs31{font-size:25px;font-size:25rem;}} @media screen and (min-width: 1024px) {.vfs31{font-size:31px;font-size:31rem;}}
+.vfs32{font-size:32px;font-size:32rem;font-size:3.12500vw;} @media screen and (max-width: 600px) {.vfs32{font-size:26px;font-size:26rem;}} @media screen and (min-width: 1024px) {.vfs32{font-size:32px;font-size:32rem;}}
+.vfs33{font-size:33px;font-size:33rem;font-size:3.22266vw;} @media screen and (max-width: 600px) {.vfs33{font-size:26px;font-size:26rem;}} @media screen and (min-width: 1024px) {.vfs33{font-size:33px;font-size:33rem;}}
+.vfs34{font-size:34px;font-size:34rem;font-size:3.32031vw;} @media screen and (max-width: 600px) {.vfs34{font-size:27px;font-size:27rem;}} @media screen and (min-width: 1024px) {.vfs34{font-size:34px;font-size:34rem;}}
+.vfs35{font-size:35px;font-size:35rem;font-size:3.41797vw;} @media screen and (max-width: 600px) {.vfs35{font-size:28px;font-size:28rem;}} @media screen and (min-width: 1024px) {.vfs35{font-size:35px;font-size:35rem;}}
+.vfs36{font-size:36px;font-size:36rem;font-size:3.51563vw;} @media screen and (max-width: 600px) {.vfs36{font-size:29px;font-size:29rem;}} @media screen and (min-width: 1024px) {.vfs36{font-size:36px;font-size:36rem;}}
+.vfs37{font-size:37px;font-size:37rem;font-size:3.61328vw;} @media screen and (max-width: 600px) {.vfs37{font-size:30px;font-size:30rem;}} @media screen and (min-width: 1024px) {.vfs37{font-size:37px;font-size:37rem;}}
+.vfs38{font-size:38px;font-size:38rem;font-size:3.71094vw;} @media screen and (max-width: 600px) {.vfs38{font-size:30px;font-size:30rem;}} @media screen and (min-width: 1024px) {.vfs38{font-size:38px;font-size:38rem;}}
+.vfs39{font-size:39px;font-size:39rem;font-size:3.80859vw;} @media screen and (max-width: 600px) {.vfs39{font-size:31px;font-size:31rem;}} @media screen and (min-width: 1024px) {.vfs39{font-size:39px;font-size:39rem;}}
+.vfs40{font-size:40px;font-size:40rem;font-size:3.90625vw;} @media screen and (max-width: 600px) {.vfs40{font-size:32px;font-size:32rem;}} @media screen and (min-width: 1024px) {.vfs40{font-size:40px;font-size:40rem;}}
