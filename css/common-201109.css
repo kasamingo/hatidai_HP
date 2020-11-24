@@ -11382,7 +11382,7 @@
 
 .section2 {
   position: relative;
-  top: 12rem;
+  top: 9vw;
 }
 
 .section2-w {
@@ -11667,7 +11667,7 @@ a{
     padding-top: 6vw;
 }
 .section3 {
-  margin-top: 156rem;
+  margin-top: 22vw;
 }
 .section3-w {
   height: 90vw;
@@ -12059,6 +12059,10 @@ ol.shareholder_benefits li:before{
 .philo-h2 {
   font-size: 25PX;
 }
+.section2 {
+  position: relative;
+  top: 8vw;
+}
 
 .sec3-img {
   width: 100%;
@@ -12071,7 +12075,7 @@ ol.shareholder_benefits li:before{
   left: 0vw;
   top: -33vw;
   z-index: 2;
-  height: 67vw;
+  height: 72vw;
 }
 .sec3-img2 {
   width: 100%;
