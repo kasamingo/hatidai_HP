@@ -54,11 +54,10 @@
         url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-MDemiLight.otf") format('opentype');
  }*/
 
- body {
-    /* font-family: 'Noto Sans Japanese', sans-serif; */
-    font-size: 16px;
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
     font-size: 16rem;
-    color: #464646;
+    color: #666;
     letter-spacing: 0.08em;
     line-height: 1.4;
     font-weight: 200;
