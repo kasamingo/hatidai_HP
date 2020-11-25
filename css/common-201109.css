@@ -11381,8 +11381,7 @@
 /*-------------------------------ここからは自分が追加したCSSを記入します。*/
 
 .section2 {
-  position: relative;
-  top: 9vw;
+  margin-top: 5vw;
 }
 
 .section2-w {
@@ -12060,8 +12059,7 @@ ol.shareholder_benefits li:before{
   font-size: 25PX;
 }
 .section2 {
-  position: relative;
-  top: 8vw;
+  margin-top: 9vw;
 }
 
 .sec3-img {
@@ -12128,7 +12126,7 @@ ol.shareholder_benefits li:before{
   padding-top: 10vw;
 }
 .section2 {
-  top: 40rem;
+  margin-top: 10vw;
 }
 .sec3-img-text {
   width: 90%;
