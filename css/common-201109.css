@@ -1774,16 +1774,16 @@
     margin: 0 auto;
   }
   .wrapper_footer_logo{
-
+    text-align: center;
   }
   .wrapper_footer_logo a {
     display: inline-block;
     width: 240px;
   }
   .wrapper_footer_logo a img {
-    width: 100%;
+    width: 19vw;
     transition: opacity 0.2s;
-  }
+}
   .wrapper_footer_logo a:hover img{
     opacity: 0.6;
   }
