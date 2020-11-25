@@ -1774,7 +1774,7 @@
     margin: 0 auto;
   }
   .wrapper_footer_logo{
-    text-align: center;
+
   }
   .wrapper_footer_logo a {
     display: inline-block;
@@ -11406,11 +11406,13 @@
 .eng-philo {
   font-size: 0.8rem;
 }
+.why-peaple {
+  font-size: 1.3vw;
+}
 
-.why-peaple {}
 
 .philosophy-text {
-  font-size: 14px;
+  font-size: 1.3vw;
   letter-spacing: 0.2vw;
   line-height: 2;
 }
@@ -11422,7 +11424,7 @@
 
 .section3-w {
   background-color: #ececec;
-  height: 1004px;
+  height: 94vw;
 }
 
 .sec3-img {
@@ -11450,13 +11452,12 @@
 
 .sec3-h2 {
   margin-bottom: 1vw;
-  font-size: 26px;
+  font-size: 2vw;
 }
 
 .sec3-p {
-  font-size: 13px;
+  font-size: 1vw;
 }
-
 .pulus{
   display: none;
 }
