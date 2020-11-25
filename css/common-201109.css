@@ -4072,11 +4072,11 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
-  .wrapper_text_main_visual{
+  .wrapper_text_main_visual {
     position: absolute;
-    top: 50%;
+    top: 42%;
     width: 100%;
-  }
+}
   .lang_en .wrapper_text_main_visual.top{
     top: 53%;
   }
