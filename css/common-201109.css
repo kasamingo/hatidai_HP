@@ -1772,7 +1772,7 @@
     text-align: center;
   }
   .wrapper_footer_logo{
-    /*text-align: center;*/
+    border-bottom: 1px solid #e5e5e5;
   }
   .wrapper_footer_logo a {
     display: block;
@@ -11452,6 +11452,8 @@
 .sec3-h2 {
   margin-bottom: 1vw;
   font-size: 2vw;
+  padding-bottom: 4px;
+  border-bottom: 3px solid;
 }
 
 .sec3-p {
@@ -12048,7 +12050,7 @@ ol.shareholder_benefits li:before{
          padding: 3px;
      }
      .philosophy-text {
-      font-size: 11px;
+      font-size: 11.5px;
       letter-spacing: 0.1vw;
       line-height: 1.6;
   }
@@ -12136,7 +12138,7 @@ ol.shareholder_benefits li:before{
     font-size: 16px;
 }
 .section2-w {
-  height: 139vw;
+  height: 143vw;
   padding-top: 10vw;
 }
 .section2 {
