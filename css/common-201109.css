@@ -1769,17 +1769,16 @@
     padding: 80px 0 42px 0;
   }
   #footer footer {
-    max-width: 1250px;
-    min-width: 980px;
-    margin: 0 auto;
+    text-align: center;
   }
   .wrapper_footer_logo{
     /*text-align: center;*/
   }
   .wrapper_footer_logo a {
-    display: inline-block;
-    /*width: 240px;*/
-  }
+    display: block;
+    width: 322px;
+    margin: 0 auto;
+}
   .wrapper_footer_logo a img {
     /*width: 19vw;*/
     transition: opacity 0.2s;
@@ -1792,11 +1791,9 @@
   .wrapper_sns {
     padding: 40px 0 80px 0;
     border-bottom: 1px solid #e5e5e5;
-    text-align: center;
   }
   .wrapper_sns a {
     display: inline-block;
-    width: 32px;
     margin: 0 10px;
   }
   .wrapper_sns a img{
