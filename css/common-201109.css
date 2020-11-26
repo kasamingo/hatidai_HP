@@ -11380,6 +11380,16 @@
 
 /*-------------------------------ここからは自分が追加したCSSを記入します。*/
 
+
+
+
+
+
+
+
+
+
+
 .section2 {
   margin-top: 5vw;
 }
@@ -11513,6 +11523,99 @@ a{
   color: white;
 }
 /*-------------------------------ここからは自分が追加したCSSを記入します。*/
+
+
+
+/*お問い合わせフォーム*/
+table {
+  border-collapse: collapse;
+}
+ 
+ 
+input[type="text"],
+textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 480px;
+  transition: 0.8s;
+  border-radius: 0;
+}
+ 
+input[type="text"]:focus,
+textarea:focus {
+  background: #e9f5fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+ 
+textarea[name="content"] {
+  width: 100%;
+  height: 200px;
+}
+ 
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+.form-table {
+  width: 100%;
+}
+ 
+.form-table th,
+.form-table td {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px;
+}
+ 
+.form-table th {
+  background: #9ac6ec;
+  padding-left: 50px;
+  position: relative;
+  text-align: left;
+  width: 300px;
+}
+.final-w{
+
+}
+.final{
+  padding-bottom: 0px;
+}
+.form-btn {
+  width: 100%;
+  text-align: center;
+  margin: 10vh 0 10vh 0;
+}
+.form{
+  border-top: 4px solid #48ecc4;
+  border-right: 4px solid #0a5f4a;
+  border-bottom: 4px solid #0f745b;
+  border-left: 4px solid #8cf9de;
+  border-radius: 0;
+  background-color: #0f78c8;
+  padding: 1vw 3vw;
+}
+.form:hover{
+  background-color: #9cc5e1;
+}
+/*お問い合わせフォーム*/
 
 
 
@@ -12040,6 +12143,15 @@ ol.shareholder_benefits li:before{
    .holiday_attention_period {
        text-align: center;
    }
+   .form {
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 0;
+    background-color: #0f78c8;
+    padding: 2vw 5vw;
+}
    
  }
  @media screen and (max-width: 480px){
@@ -12055,6 +12167,25 @@ ol.shareholder_benefits li:before{
       letter-spacing: 0.1vw;
       line-height: 1.6;
   }
+  .form {
+    padding: 3vw 9vw;
+}
+  tbody{
+    width: 100%;
+  }
+  tr{
+    width: 100%;
+  }
+  th{
+    width: 100%;
+  }
+  .form-table th,
+.form-table td {
+  display: block;
+  width: 100%;
+  border-bottom: none;
+}
+ 
   .pulus{
     display: block;
   }
@@ -12126,6 +12257,15 @@ ol.shareholder_benefits li:before{
   margin-top: 8vw;
 } 
 #bgvid {
+}
+input[type="text"], textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 100%;
+  transition: 0.8s;
+  border-radius: 0;
 }
 
  }
