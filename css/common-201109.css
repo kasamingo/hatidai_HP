@@ -1293,7 +1293,7 @@
   }
   .main_dots{
     width: 100%;
-    height: 100%;
+
     background-image: url("../image/dots.png");
     position: absolute;
     top: 0;
@@ -7287,8 +7287,8 @@
     /* background-position: center center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
-    margin-top: -31vw;
-    height: 100vh;
+    margin-top: 60px;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -12040,6 +12040,7 @@ ol.shareholder_benefits li:before{
    .holiday_attention_period {
        text-align: center;
    }
+   
  }
  @media screen and (max-width: 480px){
      .holiday_calender {
@@ -12125,7 +12126,6 @@ ol.shareholder_benefits li:before{
   margin-top: 8vw;
 } 
 #bgvid {
-  margin-top: -46vw;
 }
 
  }

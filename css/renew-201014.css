@@ -257,8 +257,8 @@
   .main_visual {
     height: 48vh;
     margin-top: 0;
-    margin-bottom: 29vw;
-} 
+    margin-bottom: 30vh;
+}
 }
   .wrapper_text_main_visual {
     z-index: 1;
@@ -268,14 +268,14 @@
   }
   .wrapper_bg_main_visual {
     width: 100%;
-    height: 100%;
-    background-image: url("../image/dots.png");
+    height: 720px;
+    background-image: url(../image/dots.png);
     background-color: rgba(0, 0, 0, .3);
     position: absolute;
-    top: 0;
+    top: 60px;
     left: 0;
     z-index: 0;
-  }
+}
 
   .investor_top .wrapper_card_contents .card_top_contents{
     border: none;
@@ -477,7 +477,14 @@
   .contents_header_occupancy_person_contact{
     padding-left: 10px;
   }
+  .wrapper_bg_main_visual {
+
+    height: 43vw;
+    
 }
+  
+}
+
 
 
 /* SP */
@@ -492,6 +499,16 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 35vw;
+}
+.wrapper_bg_main_visual {
+  width: 100%;
+  height: 56vw;
+  background-image: url(../image/dots.png);
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 0;
 }
 
   .slider_top_investors .slick-track{
@@ -530,7 +547,7 @@
 
   .top_banner {
     bottom: 0%;
-    top: 71vw;
+    top: 60vh;
 }
   .top_banner_wrapper {
       width: 90%;
