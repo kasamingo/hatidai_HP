@@ -255,9 +255,11 @@
 @media screen and (max-width: 979px) {
 
   .main_visual {
-    height: 100vh;
+    height: 48vh;
     margin-top: 0;
-  }
+    margin-bottom: 29vw;
+} 
+}
   .wrapper_text_main_visual {
     z-index: 1;
   }
@@ -489,7 +491,8 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+    top: 35vw;
+}
 
   .slider_top_investors .slick-track{
     width: 100%!important;
@@ -526,8 +529,9 @@
   }
 
   .top_banner {
-      bottom: 10%;
-  }
+    bottom: 0%;
+    top: 71vw;
+}
   .top_banner_wrapper {
       width: 90%;
   }
@@ -538,6 +542,18 @@
   .contents_header_contact br {
     display: block;
   }
+  .wrapper_text_main_visual.catch {
+    top: 44vw;
+  }
+  .top_banner {
+    bottom: 0%;
+    top: 98vw;
+}
+.main_visual {
+  height: 40vh;
+  margin-top: 0;
+  margin-bottom: 84vw;
+}
   .wrapper_occupancy_person_contact_btn {
     width: 80%;
     text-align: center;
@@ -578,7 +594,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:380px) {
   .wrapper_occupancy_person_contact_btn {
     width: 100%;
     text-align: center;
@@ -616,6 +632,23 @@
     font-size: 12px;
     margin-bottom: 10px;
   }
+  .wrapper_text_main_visual.catch {
+    top: 44vw;
+    font-size: 34px;
+}
+.top_banner {
+  bottom: 0%;
+  top: 90vw;
+}
+.main_visual {
+  height: 33.4vh;
+  margin-top: 0;
+  margin-bottom: 80vw;
+}
+.top_banner {
+  bottom: 0%;
+  top: 99vw;
+}
 }
 
 
