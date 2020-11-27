@@ -11413,7 +11413,7 @@
 }
 
 .eng-philo {
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 .why-peaple {
   font-size: 1.3vw;
@@ -11462,10 +11462,11 @@
 .sec3-h2 {
   margin-bottom: 1vw;
   font-size: 2vw;
+  color: grey;
+  font-weight: bold;
   padding-bottom: 4px;
   border-bottom: 3px solid;
 }
-
 .sec3-p {
   font-size: 1vw;
 }
@@ -12169,6 +12170,9 @@ ol.shareholder_benefits li:before{
   }
   .form {
     padding: 3vw 9vw;
+}
+.eng-philo {
+  font-size: 10px;
 }
   tbody{
     width: 100%;
